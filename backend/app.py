@@ -505,7 +505,7 @@ db = SQLAlchemy(app)
 # app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['CACHE_TYPE'] = 'SimpleCache'  # In-memory cache for development
 
-CORS(app, supports_credentials=True, origins=[os.getenv("FRONTEND_URL", "https://orange-dune-0aea0c81e.6.azurestaticapps.net")])
+CORS(app, supports_credentials=True, origins=["https://orange-dune-0aea0c81e.6.azurestaticapps.net"])
 # db = SQLAlchemy(app)
 cache = Cache(app)
 

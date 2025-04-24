@@ -787,7 +787,7 @@
         "kind": 5,
         "importPath": "backend.app",
         "description": "backend.app",
-        "peekOfCode": "app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\n##################\n# app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv(\"DATABASE_URL\", \"mysql+pymysql://root@localhost:3306/collegedata\")\n# app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\napp.config['CACHE_TYPE'] = 'SimpleCache'  # In-memory cache for development\nCORS(app, supports_credentials=True, origins=[os.getenv(\"FRONTEND_URL\", \"https://orange-dune-0aea0c81e.6.azurestaticapps.net\")])\n# db = SQLAlchemy(app)\ncache = Cache(app)\n# Initialize Limiter with correct syntax",
+        "peekOfCode": "app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\n##################\n# app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv(\"DATABASE_URL\", \"mysql+pymysql://root@localhost:3306/collegedata\")\n# app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\napp.config['CACHE_TYPE'] = 'SimpleCache'  # In-memory cache for development\nCORS(app, supports_credentials=True, origins=[\"https://orange-dune-0aea0c81e.6.azurestaticapps.net\"])\n# db = SQLAlchemy(app)\ncache = Cache(app)\n# Initialize Limiter with correct syntax",
         "detail": "backend.app",
         "documentation": {}
     },
@@ -796,7 +796,7 @@
         "kind": 5,
         "importPath": "backend.app",
         "description": "backend.app",
-        "peekOfCode": "db = SQLAlchemy(app)\n##################\n# app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv(\"DATABASE_URL\", \"mysql+pymysql://root@localhost:3306/collegedata\")\n# app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\napp.config['CACHE_TYPE'] = 'SimpleCache'  # In-memory cache for development\nCORS(app, supports_credentials=True, origins=[os.getenv(\"FRONTEND_URL\", \"https://orange-dune-0aea0c81e.6.azurestaticapps.net\")])\n# db = SQLAlchemy(app)\ncache = Cache(app)\n# Initialize Limiter with correct syntax\nlimiter = Limiter(",
+        "peekOfCode": "db = SQLAlchemy(app)\n##################\n# app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv(\"DATABASE_URL\", \"mysql+pymysql://root@localhost:3306/collegedata\")\n# app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\napp.config['CACHE_TYPE'] = 'SimpleCache'  # In-memory cache for development\nCORS(app, supports_credentials=True, origins=[\"https://orange-dune-0aea0c81e.6.azurestaticapps.net\"])\n# db = SQLAlchemy(app)\ncache = Cache(app)\n# Initialize Limiter with correct syntax\nlimiter = Limiter(",
         "detail": "backend.app",
         "documentation": {}
     },
@@ -805,7 +805,7 @@
         "kind": 5,
         "importPath": "backend.app",
         "description": "backend.app",
-        "peekOfCode": "app.config['CACHE_TYPE'] = 'SimpleCache'  # In-memory cache for development\nCORS(app, supports_credentials=True, origins=[os.getenv(\"FRONTEND_URL\", \"https://orange-dune-0aea0c81e.6.azurestaticapps.net\")])\n# db = SQLAlchemy(app)\ncache = Cache(app)\n# Initialize Limiter with correct syntax\nlimiter = Limiter(\n    get_remote_address,\n    app=app,\n    default_limits=[\"200 per day\", \"50 per hour\"]\n)",
+        "peekOfCode": "app.config['CACHE_TYPE'] = 'SimpleCache'  # In-memory cache for development\nCORS(app, supports_credentials=True, origins=[\"https://orange-dune-0aea0c81e.6.azurestaticapps.net\"])\n# db = SQLAlchemy(app)\ncache = Cache(app)\n# Initialize Limiter with correct syntax\nlimiter = Limiter(\n    get_remote_address,\n    app=app,\n    default_limits=[\"200 per day\", \"50 per hour\"]\n)",
         "detail": "backend.app",
         "documentation": {}
     },
