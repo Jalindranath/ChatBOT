@@ -481,32 +481,32 @@ load_dotenv()
 app = Flask(__name__)
 app.secret_key = os.getenv("FLASK_SECRET_KEY", "default_secret_key")
 
-##########################
+#########################
 
 
 # Configure SQLAlchemy for Azure MySQL
-# db_user = os.getenv("MYSQL_USER", "Nath")
-# db_password = os.getenv("MYSQL_PASSWORD", "Moonlight@123")
-# db_host = os.getenv("MYSQL_HOST", "chatbot-mysql-server.mysql.database.azure.com")
-# db_name = os.getenv("MYSQL_DATABASE", "collegedata")
-# ssl_ca_path = os.path.join(os.path.dirname(__file__), "DigiCertGlobalRootG2.crt.pem")
+db_user = os.getenv("MYSQL_USER", "Nath")
+db_password = os.getenv("MYSQL_PASSWORD", "Moonlight@123")
+db_host = os.getenv("MYSQL_HOST", "chatbot-mysql-server.mysql.database.azure.com")
+db_name = os.getenv("MYSQL_DATABASE", "collegedata")
+ssl_ca_path = os.path.join(os.path.dirname(__file__), "DigiCertGlobalRootG2.crt.pem")
 
-# app.config['SQLALCHEMY_DATABASE_URI'] = (
-#     f"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}"
-#     f"?ssl_ca={ssl_ca_path}&ssl_disabled=False"
-# )
-# app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-
-# db = SQLAlchemy(app)
-
-###################
-
-app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv("DATABASE_URL", "mysql+pymysql://root@localhost:3306/collegedata")
+app.config['SQLALCHEMY_DATABASE_URI'] = (
+    f"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}"
+    f"?ssl_ca={ssl_ca_path}&ssl_disabled=False"
+)
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+
+db = SQLAlchemy(app)
+
+##################
+
+# app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv("DATABASE_URL", "mysql+pymysql://root@localhost:3306/collegedata")
+# app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['CACHE_TYPE'] = 'SimpleCache'  # In-memory cache for development
 
 CORS(app, supports_credentials=True, origins=[os.getenv("FRONTEND_URL", "http://localhost:5173")])
-db = SQLAlchemy(app)
+# db = SQLAlchemy(app)
 cache = Cache(app)
 
 # Initialize Limiter with correct syntax

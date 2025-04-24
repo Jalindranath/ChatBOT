@@ -44,14 +44,6 @@
         "documentation": {}
     },
     {
-        "label": "text",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
         "label": "SQLAlchemy",
         "importPath": "flask_sqlalchemy",
         "description": "flask_sqlalchemy",
@@ -65,38 +57,6 @@
         "description": "flask_sqlalchemy",
         "isExtraImport": true,
         "detail": "flask_sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "SQLAlchemy",
-        "importPath": "flask_sqlalchemy",
-        "description": "flask_sqlalchemy",
-        "isExtraImport": true,
-        "detail": "flask_sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "SQLAlchemy",
-        "importPath": "flask_sqlalchemy",
-        "description": "flask_sqlalchemy",
-        "isExtraImport": true,
-        "detail": "flask_sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "process",
-        "importPath": "rapidfuzz",
-        "description": "rapidfuzz",
-        "isExtraImport": true,
-        "detail": "rapidfuzz",
-        "documentation": {}
-    },
-    {
-        "label": "process",
-        "importPath": "rapidfuzz",
-        "description": "rapidfuzz",
-        "isExtraImport": true,
-        "detail": "rapidfuzz",
         "documentation": {}
     },
     {
@@ -150,22 +110,6 @@
         "documentation": {}
     },
     {
-        "label": "TfidfVectorizer",
-        "importPath": "sklearn.feature_extraction.text",
-        "description": "sklearn.feature_extraction.text",
-        "isExtraImport": true,
-        "detail": "sklearn.feature_extraction.text",
-        "documentation": {}
-    },
-    {
-        "label": "TfidfVectorizer",
-        "importPath": "sklearn.feature_extraction.text",
-        "description": "sklearn.feature_extraction.text",
-        "isExtraImport": true,
-        "detail": "sklearn.feature_extraction.text",
-        "documentation": {}
-    },
-    {
         "label": "LogisticRegression",
         "importPath": "sklearn.linear_model",
         "description": "sklearn.linear_model",
@@ -179,102 +123,6 @@
         "description": "sklearn.linear_model",
         "isExtraImport": true,
         "detail": "sklearn.linear_model",
-        "documentation": {}
-    },
-    {
-        "label": "LogisticRegression",
-        "importPath": "sklearn.linear_model",
-        "description": "sklearn.linear_model",
-        "isExtraImport": true,
-        "detail": "sklearn.linear_model",
-        "documentation": {}
-    },
-    {
-        "label": "LogisticRegression",
-        "importPath": "sklearn.linear_model",
-        "description": "sklearn.linear_model",
-        "isExtraImport": true,
-        "detail": "sklearn.linear_model",
-        "documentation": {}
-    },
-    {
-        "label": "Flask",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "request",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "jsonify",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "render_template",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "session",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "Flask",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "request",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "jsonify",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "render_template",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "session",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
         "documentation": {}
     },
     {
@@ -384,14 +232,6 @@
         "documentation": {}
     },
     {
-        "label": "secure_filename",
-        "importPath": "werkzeug.utils",
-        "description": "werkzeug.utils",
-        "isExtraImport": true,
-        "detail": "werkzeug.utils",
-        "documentation": {}
-    },
-    {
         "label": "tempfile",
         "kind": 6,
         "isExtraImport": true,
@@ -418,35 +258,11 @@
         "documentation": {}
     },
     {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
-        "isExtraImport": true,
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
         "label": "CORS",
         "importPath": "flask_cors",
         "description": "flask_cors",
         "isExtraImport": true,
         "detail": "flask_cors",
-        "documentation": {}
-    },
-    {
-        "label": "CORS",
-        "importPath": "flask_cors",
-        "description": "flask_cors",
-        "isExtraImport": true,
-        "detail": "flask_cors",
-        "documentation": {}
-    },
-    {
-        "label": "Cache",
-        "importPath": "flask_caching",
-        "description": "flask_caching",
-        "isExtraImport": true,
-        "detail": "flask_caching",
         "documentation": {}
     },
     {
@@ -466,35 +282,11 @@
         "documentation": {}
     },
     {
-        "label": "Limiter",
-        "importPath": "flask_limiter",
-        "description": "flask_limiter",
-        "isExtraImport": true,
-        "detail": "flask_limiter",
-        "documentation": {}
-    },
-    {
         "label": "get_remote_address",
         "importPath": "flask_limiter.util",
         "description": "flask_limiter.util",
         "isExtraImport": true,
         "detail": "flask_limiter.util",
-        "documentation": {}
-    },
-    {
-        "label": "get_remote_address",
-        "importPath": "flask_limiter.util",
-        "description": "flask_limiter.util",
-        "isExtraImport": true,
-        "detail": "flask_limiter.util",
-        "documentation": {}
-    },
-    {
-        "label": "DatabaseError",
-        "importPath": "sqlalchemy.exc",
-        "description": "sqlalchemy.exc",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.exc",
         "documentation": {}
     },
     {
@@ -915,7 +707,7 @@
         "kind": 5,
         "importPath": "backend.app",
         "description": "backend.app",
-        "peekOfCode": "app = Flask(__name__)\napp.secret_key = os.getenv(\"FLASK_SECRET_KEY\", \"default_secret_key\")\n##########################\n# Configure SQLAlchemy for Azure MySQL\n# db_user = os.getenv(\"MYSQL_USER\", \"Nath\")\n# db_password = os.getenv(\"MYSQL_PASSWORD\", \"Moonlight@123\")\n# db_host = os.getenv(\"MYSQL_HOST\", \"chatbot-mysql-server.mysql.database.azure.com\")\n# db_name = os.getenv(\"MYSQL_DATABASE\", \"collegedata\")\n# ssl_ca_path = os.path.join(os.path.dirname(__file__), \"DigiCertGlobalRootG2.crt.pem\")\n# app.config['SQLALCHEMY_DATABASE_URI'] = (",
+        "peekOfCode": "app = Flask(__name__)\napp.secret_key = os.getenv(\"FLASK_SECRET_KEY\", \"default_secret_key\")\n#########################\n# Configure SQLAlchemy for Azure MySQL\ndb_user = os.getenv(\"MYSQL_USER\", \"Nath\")\ndb_password = os.getenv(\"MYSQL_PASSWORD\", \"Moonlight@123\")\ndb_host = os.getenv(\"MYSQL_HOST\", \"chatbot-mysql-server.mysql.database.azure.com\")\ndb_name = os.getenv(\"MYSQL_DATABASE\", \"collegedata\")\nssl_ca_path = os.path.join(os.path.dirname(__file__), \"DigiCertGlobalRootG2.crt.pem\")\napp.config['SQLALCHEMY_DATABASE_URI'] = (",
         "detail": "backend.app",
         "documentation": {}
     },
@@ -924,7 +716,52 @@
         "kind": 5,
         "importPath": "backend.app",
         "description": "backend.app",
-        "peekOfCode": "app.secret_key = os.getenv(\"FLASK_SECRET_KEY\", \"default_secret_key\")\n##########################\n# Configure SQLAlchemy for Azure MySQL\n# db_user = os.getenv(\"MYSQL_USER\", \"Nath\")\n# db_password = os.getenv(\"MYSQL_PASSWORD\", \"Moonlight@123\")\n# db_host = os.getenv(\"MYSQL_HOST\", \"chatbot-mysql-server.mysql.database.azure.com\")\n# db_name = os.getenv(\"MYSQL_DATABASE\", \"collegedata\")\n# ssl_ca_path = os.path.join(os.path.dirname(__file__), \"DigiCertGlobalRootG2.crt.pem\")\n# app.config['SQLALCHEMY_DATABASE_URI'] = (\n#     f\"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}\"",
+        "peekOfCode": "app.secret_key = os.getenv(\"FLASK_SECRET_KEY\", \"default_secret_key\")\n#########################\n# Configure SQLAlchemy for Azure MySQL\ndb_user = os.getenv(\"MYSQL_USER\", \"Nath\")\ndb_password = os.getenv(\"MYSQL_PASSWORD\", \"Moonlight@123\")\ndb_host = os.getenv(\"MYSQL_HOST\", \"chatbot-mysql-server.mysql.database.azure.com\")\ndb_name = os.getenv(\"MYSQL_DATABASE\", \"collegedata\")\nssl_ca_path = os.path.join(os.path.dirname(__file__), \"DigiCertGlobalRootG2.crt.pem\")\napp.config['SQLALCHEMY_DATABASE_URI'] = (\n    f\"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}\"",
+        "detail": "backend.app",
+        "documentation": {}
+    },
+    {
+        "label": "db_user",
+        "kind": 5,
+        "importPath": "backend.app",
+        "description": "backend.app",
+        "peekOfCode": "db_user = os.getenv(\"MYSQL_USER\", \"Nath\")\ndb_password = os.getenv(\"MYSQL_PASSWORD\", \"Moonlight@123\")\ndb_host = os.getenv(\"MYSQL_HOST\", \"chatbot-mysql-server.mysql.database.azure.com\")\ndb_name = os.getenv(\"MYSQL_DATABASE\", \"collegedata\")\nssl_ca_path = os.path.join(os.path.dirname(__file__), \"DigiCertGlobalRootG2.crt.pem\")\napp.config['SQLALCHEMY_DATABASE_URI'] = (\n    f\"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}\"\n    f\"?ssl_ca={ssl_ca_path}&ssl_disabled=False\"\n)\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False",
+        "detail": "backend.app",
+        "documentation": {}
+    },
+    {
+        "label": "db_password",
+        "kind": 5,
+        "importPath": "backend.app",
+        "description": "backend.app",
+        "peekOfCode": "db_password = os.getenv(\"MYSQL_PASSWORD\", \"Moonlight@123\")\ndb_host = os.getenv(\"MYSQL_HOST\", \"chatbot-mysql-server.mysql.database.azure.com\")\ndb_name = os.getenv(\"MYSQL_DATABASE\", \"collegedata\")\nssl_ca_path = os.path.join(os.path.dirname(__file__), \"DigiCertGlobalRootG2.crt.pem\")\napp.config['SQLALCHEMY_DATABASE_URI'] = (\n    f\"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}\"\n    f\"?ssl_ca={ssl_ca_path}&ssl_disabled=False\"\n)\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)",
+        "detail": "backend.app",
+        "documentation": {}
+    },
+    {
+        "label": "db_host",
+        "kind": 5,
+        "importPath": "backend.app",
+        "description": "backend.app",
+        "peekOfCode": "db_host = os.getenv(\"MYSQL_HOST\", \"chatbot-mysql-server.mysql.database.azure.com\")\ndb_name = os.getenv(\"MYSQL_DATABASE\", \"collegedata\")\nssl_ca_path = os.path.join(os.path.dirname(__file__), \"DigiCertGlobalRootG2.crt.pem\")\napp.config['SQLALCHEMY_DATABASE_URI'] = (\n    f\"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}\"\n    f\"?ssl_ca={ssl_ca_path}&ssl_disabled=False\"\n)\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\n##################",
+        "detail": "backend.app",
+        "documentation": {}
+    },
+    {
+        "label": "db_name",
+        "kind": 5,
+        "importPath": "backend.app",
+        "description": "backend.app",
+        "peekOfCode": "db_name = os.getenv(\"MYSQL_DATABASE\", \"collegedata\")\nssl_ca_path = os.path.join(os.path.dirname(__file__), \"DigiCertGlobalRootG2.crt.pem\")\napp.config['SQLALCHEMY_DATABASE_URI'] = (\n    f\"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}\"\n    f\"?ssl_ca={ssl_ca_path}&ssl_disabled=False\"\n)\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\n##################\n# app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv(\"DATABASE_URL\", \"mysql+pymysql://root@localhost:3306/collegedata\")",
+        "detail": "backend.app",
+        "documentation": {}
+    },
+    {
+        "label": "ssl_ca_path",
+        "kind": 5,
+        "importPath": "backend.app",
+        "description": "backend.app",
+        "peekOfCode": "ssl_ca_path = os.path.join(os.path.dirname(__file__), \"DigiCertGlobalRootG2.crt.pem\")\napp.config['SQLALCHEMY_DATABASE_URI'] = (\n    f\"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}\"\n    f\"?ssl_ca={ssl_ca_path}&ssl_disabled=False\"\n)\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\n##################\n# app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv(\"DATABASE_URL\", \"mysql+pymysql://root@localhost:3306/collegedata\")\n# app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False",
         "detail": "backend.app",
         "documentation": {}
     },
@@ -933,7 +770,7 @@
         "kind": 5,
         "importPath": "backend.app",
         "description": "backend.app",
-        "peekOfCode": "app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv(\"DATABASE_URL\", \"mysql+pymysql://root@localhost:3306/collegedata\")\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\napp.config['CACHE_TYPE'] = 'SimpleCache'  # In-memory cache for development\nCORS(app, supports_credentials=True, origins=[os.getenv(\"FRONTEND_URL\", \"http://localhost:5173\")])\ndb = SQLAlchemy(app)\ncache = Cache(app)\n# Initialize Limiter with correct syntax\nlimiter = Limiter(\n    get_remote_address,\n    app=app,",
+        "peekOfCode": "app.config['SQLALCHEMY_DATABASE_URI'] = (\n    f\"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}\"\n    f\"?ssl_ca={ssl_ca_path}&ssl_disabled=False\"\n)\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\n##################\n# app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv(\"DATABASE_URL\", \"mysql+pymysql://root@localhost:3306/collegedata\")\n# app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\napp.config['CACHE_TYPE'] = 'SimpleCache'  # In-memory cache for development",
         "detail": "backend.app",
         "documentation": {}
     },
@@ -942,16 +779,7 @@
         "kind": 5,
         "importPath": "backend.app",
         "description": "backend.app",
-        "peekOfCode": "app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\napp.config['CACHE_TYPE'] = 'SimpleCache'  # In-memory cache for development\nCORS(app, supports_credentials=True, origins=[os.getenv(\"FRONTEND_URL\", \"http://localhost:5173\")])\ndb = SQLAlchemy(app)\ncache = Cache(app)\n# Initialize Limiter with correct syntax\nlimiter = Limiter(\n    get_remote_address,\n    app=app,\n    default_limits=[\"200 per day\", \"50 per hour\"]",
-        "detail": "backend.app",
-        "documentation": {}
-    },
-    {
-        "label": "app.config['CACHE_TYPE']",
-        "kind": 5,
-        "importPath": "backend.app",
-        "description": "backend.app",
-        "peekOfCode": "app.config['CACHE_TYPE'] = 'SimpleCache'  # In-memory cache for development\nCORS(app, supports_credentials=True, origins=[os.getenv(\"FRONTEND_URL\", \"http://localhost:5173\")])\ndb = SQLAlchemy(app)\ncache = Cache(app)\n# Initialize Limiter with correct syntax\nlimiter = Limiter(\n    get_remote_address,\n    app=app,\n    default_limits=[\"200 per day\", \"50 per hour\"]\n)",
+        "peekOfCode": "app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\n##################\n# app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv(\"DATABASE_URL\", \"mysql+pymysql://root@localhost:3306/collegedata\")\n# app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\napp.config['CACHE_TYPE'] = 'SimpleCache'  # In-memory cache for development\nCORS(app, supports_credentials=True, origins=[os.getenv(\"FRONTEND_URL\", \"http://localhost:5173\")])\n# db = SQLAlchemy(app)\ncache = Cache(app)\n# Initialize Limiter with correct syntax",
         "detail": "backend.app",
         "documentation": {}
     },
@@ -960,7 +788,16 @@
         "kind": 5,
         "importPath": "backend.app",
         "description": "backend.app",
-        "peekOfCode": "db = SQLAlchemy(app)\ncache = Cache(app)\n# Initialize Limiter with correct syntax\nlimiter = Limiter(\n    get_remote_address,\n    app=app,\n    default_limits=[\"200 per day\", \"50 per hour\"]\n)\n# Gemini API configuration\ndef configure_gemini_api():",
+        "peekOfCode": "db = SQLAlchemy(app)\n##################\n# app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv(\"DATABASE_URL\", \"mysql+pymysql://root@localhost:3306/collegedata\")\n# app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\napp.config['CACHE_TYPE'] = 'SimpleCache'  # In-memory cache for development\nCORS(app, supports_credentials=True, origins=[os.getenv(\"FRONTEND_URL\", \"http://localhost:5173\")])\n# db = SQLAlchemy(app)\ncache = Cache(app)\n# Initialize Limiter with correct syntax\nlimiter = Limiter(",
+        "detail": "backend.app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config['CACHE_TYPE']",
+        "kind": 5,
+        "importPath": "backend.app",
+        "description": "backend.app",
+        "peekOfCode": "app.config['CACHE_TYPE'] = 'SimpleCache'  # In-memory cache for development\nCORS(app, supports_credentials=True, origins=[os.getenv(\"FRONTEND_URL\", \"http://localhost:5173\")])\n# db = SQLAlchemy(app)\ncache = Cache(app)\n# Initialize Limiter with correct syntax\nlimiter = Limiter(\n    get_remote_address,\n    app=app,\n    default_limits=[\"200 per day\", \"50 per hour\"]\n)",
         "detail": "backend.app",
         "documentation": {}
     },
@@ -1043,510 +880,6 @@
         "description": "frontend.node_modules.flatted.python.flatted",
         "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
         "detail": "frontend.node_modules.flatted.python.flatted",
-        "documentation": {}
-    },
-    {
-        "label": "SanjivaniPlacementInfo",
-        "kind": 6,
-        "importPath": "Production-Model.app copy",
-        "description": "Production-Model.app copy",
-        "peekOfCode": "class SanjivaniPlacementInfo(db.Model):\n    __tablename__ = 'sanjivaniplacementinfo'\n    id = db.Column(db.Integer, primary_key=True)\n    student_name = db.Column(db.String(100), nullable=False)\n    batch = db.Column(db.String(20), nullable=False)\n    placement_type = db.Column(db.String(50), nullable=False)\n    name_of_company = db.Column(db.String(100), nullable=False)\n    department = db.Column(db.String(100), nullable=False)\n@app.route(\"/get_history\", methods=[\"GET\"])\ndef get_history():",
-        "detail": "Production-Model.app copy",
-        "documentation": {}
-    },
-    {
-        "label": "configure_gemini_api",
-        "kind": 2,
-        "importPath": "Production-Model.app copy",
-        "description": "Production-Model.app copy",
-        "peekOfCode": "def configure_gemini_api():\n    try:\n        genai.configure(api_key=os.environ[\"GEMINI_API_KEY\"])\n        return genai.GenerativeModel(\n            model_name=\"gemini-1.5-flash\",\n            generation_config={\n                \"temperature\": 0.7,\n                \"top_p\": 0.95,\n                \"top_k\": 40,\n                \"max_output_tokens\": 1000,",
-        "detail": "Production-Model.app copy",
-        "documentation": {}
-    },
-    {
-        "label": "fetch_data_from_db",
-        "kind": 2,
-        "importPath": "Production-Model.app copy",
-        "description": "Production-Model.app copy",
-        "peekOfCode": "def fetch_data_from_db(query, params=None):\n    \"\"\"Fetch data from the database.\"\"\"\n    try:\n        engine = sqlalchemy.create_engine(DATABASE_URL)\n        with engine.connect() as connection:\n            if params:\n                return pd.read_sql(query, connection, params=params)\n            return pd.read_sql(query, connection)\n    except Exception as e:\n        return f\"Error fetching data from database: {str(e)}\"",
-        "detail": "Production-Model.app copy",
-        "documentation": {}
-    },
-    {
-        "label": "ask_gemini",
-        "kind": 2,
-        "importPath": "Production-Model.app copy",
-        "description": "Production-Model.app copy",
-        "peekOfCode": "def ask_gemini(prompt):\n    try:\n        chat_session = chat_model.start_chat(history=[])\n        response = chat_session.send_message(prompt)\n        return response.text.strip()\n    except Exception as e:\n        return f\"Error with Gemini API: {str(e)}\"\n# Function to find the closest match for keywords\ndef find_closest_match(query, options, threshold=50):\n    if not query or not options:",
-        "detail": "Production-Model.app copy",
-        "documentation": {}
-    },
-    {
-        "label": "find_closest_match",
-        "kind": 2,
-        "importPath": "Production-Model.app copy",
-        "description": "Production-Model.app copy",
-        "peekOfCode": "def find_closest_match(query, options, threshold=50):\n    if not query or not options:\n        return None\n    closest_match = process.extractOne(query, options)\n    if closest_match:\n        match, score = closest_match[:2]\n        return match if score >= threshold else None\n    return None\n# Load intents and preprocess for fallback\nfile_path = os.path.abspath(\"./intents.json\")",
-        "detail": "Production-Model.app copy",
-        "documentation": {}
-    },
-    {
-        "label": "check_intents_for_fallback",
-        "kind": 2,
-        "importPath": "Production-Model.app copy",
-        "description": "Production-Model.app copy",
-        "peekOfCode": "def check_intents_for_fallback(user_query, threshold=85):\n    best_score, best_response = 0, None\n    user_query_lower = user_query.lower()  # Convert user query to lowercase\n    for intent in intents:\n        # Normalize intent patterns to lowercase for matching\n        patterns_lower = [pattern.lower() for pattern in intent.get(\"patterns\", [])]\n        match = process.extractOne(user_query_lower, patterns_lower)\n        if match:\n            matched_pattern, score = match[:2]\n            if score > best_score:",
-        "detail": "Production-Model.app copy",
-        "documentation": {}
-    },
-    {
-        "label": "process_query",
-        "kind": 2,
-        "importPath": "Production-Model.app copy",
-        "description": "Production-Model.app copy",
-        "peekOfCode": "def process_query(user_query):\n    keywords = list(table_mapping.keys())\n    matched_keyword = find_closest_match(user_query.lower(), keywords)  # Convert query to lowercase\n    if matched_keyword:\n        table_name = table_mapping[matched_keyword]\n        query = f\"SELECT * FROM {table_name}\"\n        db_data = fetch_data_from_db(query)\n        if isinstance(db_data, str) and \"Error\" in db_data:\n            return db_data\n        elif db_data.empty:",
-        "detail": "Production-Model.app copy",
-        "documentation": {}
-    },
-    {
-        "label": "home",
-        "kind": 2,
-        "importPath": "Production-Model.app copy",
-        "description": "Production-Model.app copy",
-        "peekOfCode": "def home():\n    if \"chat_history\" not in session:\n        session[\"chat_history\"] = []\n    return render_template(\"bot_entry.html\", chat_history=session[\"chat_history\"])\n@app.route(\"/index\")\ndef index_page():\n    if \"chat_history\" not in session:\n        session[\"chat_history\"] = []\n    return render_template(\"index.html\", chat_history=session[\"chat_history\"])\n@app.route(\"/get_response\", methods=[\"POST\"])",
-        "detail": "Production-Model.app copy",
-        "documentation": {}
-    },
-    {
-        "label": "index_page",
-        "kind": 2,
-        "importPath": "Production-Model.app copy",
-        "description": "Production-Model.app copy",
-        "peekOfCode": "def index_page():\n    if \"chat_history\" not in session:\n        session[\"chat_history\"] = []\n    return render_template(\"index.html\", chat_history=session[\"chat_history\"])\n@app.route(\"/get_response\", methods=[\"POST\"])\ndef get_response():\n    user_input = request.json.get(\"user_input\", \"\").strip()\n    if not user_input:\n        return jsonify({\"response\": \"Please enter a valid message.\"})\n    user_input = user_input.lower()  # Normalize the user input to lowercase",
-        "detail": "Production-Model.app copy",
-        "documentation": {}
-    },
-    {
-        "label": "get_response",
-        "kind": 2,
-        "importPath": "Production-Model.app copy",
-        "description": "Production-Model.app copy",
-        "peekOfCode": "def get_response():\n    user_input = request.json.get(\"user_input\", \"\").strip()\n    if not user_input:\n        return jsonify({\"response\": \"Please enter a valid message.\"})\n    user_input = user_input.lower()  # Normalize the user input to lowercase\n    response = process_query(user_input)\n    #admin\n    # Save conversation to session\n    timestamp = datetime.datetime.now().strftime(\"%Y-%m-%d %H:%M:%S\")\n    chat_message = {\"user\": user_input, \"bot\": response, \"timestamp\": timestamp}",
-        "detail": "Production-Model.app copy",
-        "documentation": {}
-    },
-    {
-        "label": "show_placements",
-        "kind": 2,
-        "importPath": "Production-Model.app copy",
-        "description": "Production-Model.app copy",
-        "peekOfCode": "def show_placements():\n    page = request.args.get('page', 1, type=int)  # Get the page number from the URL\n    per_page = 10  # Number of records per page\n    placements = SanjivaniPlacementInfo.query.paginate(page=page, per_page=per_page, error_out=False)\n    print(placements)\n    return render_template('admin_panel.html', placements=placements)\n@app.route('/admin', methods=['POST'])\ndef admin_panel_post():\n    \"\"\"Handles POST requests for the Admin Panel\"\"\"\n    form_type = request.form.get('form_type')",
-        "detail": "Production-Model.app copy",
-        "documentation": {}
-    },
-    {
-        "label": "admin_panel_post",
-        "kind": 2,
-        "importPath": "Production-Model.app copy",
-        "description": "Production-Model.app copy",
-        "peekOfCode": "def admin_panel_post():\n    \"\"\"Handles POST requests for the Admin Panel\"\"\"\n    form_type = request.form.get('form_type')\n    if form_type == 'placement':\n        try:\n            query = \"\"\"\n                INSERT INTO sanjivaniplacementinfo\n                (Student_Name, Batch, Placement_Type, Name_Of_Company, department)\n                VALUES (:Student_Name, :Batch, :Placement_Type, :Name_Of_Company, :department)\n            \"\"\"",
-        "detail": "Production-Model.app copy",
-        "documentation": {}
-    },
-    {
-        "label": "get_history",
-        "kind": 2,
-        "importPath": "Production-Model.app copy",
-        "description": "Production-Model.app copy",
-        "peekOfCode": "def get_history():\n    chat_history = session.get(\"chat_history\", [])\n    return jsonify({\"history\": chat_history})\n@app.route(\"/about\")\ndef about():\n    return render_template(\"about.html\")\n@app.route(\"/history\")\ndef conversation_history():\n    conversation = []\n    try:",
-        "detail": "Production-Model.app copy",
-        "documentation": {}
-    },
-    {
-        "label": "about",
-        "kind": 2,
-        "importPath": "Production-Model.app copy",
-        "description": "Production-Model.app copy",
-        "peekOfCode": "def about():\n    return render_template(\"about.html\")\n@app.route(\"/history\")\ndef conversation_history():\n    conversation = []\n    try:\n        with open(\"chat_log.csv\", \"r\", encoding=\"utf-8\") as csvfile:\n            csv_reader = csv.reader(csvfile)\n            next(csv_reader)  # Skip the header row\n            for row in csv_reader:",
-        "detail": "Production-Model.app copy",
-        "documentation": {}
-    },
-    {
-        "label": "conversation_history",
-        "kind": 2,
-        "importPath": "Production-Model.app copy",
-        "description": "Production-Model.app copy",
-        "peekOfCode": "def conversation_history():\n    conversation = []\n    try:\n        with open(\"chat_log.csv\", \"r\", encoding=\"utf-8\") as csvfile:\n            csv_reader = csv.reader(csvfile)\n            next(csv_reader)  # Skip the header row\n            for row in csv_reader:\n                conversation.append({\"user\": row[0], \"bot\": row[1], \"timestamp\": row[2]})\n    except FileNotFoundError:\n        conversation = None",
-        "detail": "Production-Model.app copy",
-        "documentation": {}
-    },
-    {
-        "label": "app",
-        "kind": 5,
-        "importPath": "Production-Model.app copy",
-        "description": "Production-Model.app copy",
-        "peekOfCode": "app = Flask(__name__)\napp.secret_key = \"your_secret_key\"  # Replace with your actual secret key\n# Load Gemini API Key securely\nos.environ[\"GEMINI_API_KEY\"] = \"AIzaSyAy0IUrqWfBs6ITZvjU3F8Hq31l-EPqD6o\"  # Replace with your actual API key\ndef configure_gemini_api():\n    try:\n        genai.configure(api_key=os.environ[\"GEMINI_API_KEY\"])\n        return genai.GenerativeModel(\n            model_name=\"gemini-1.5-flash\",\n            generation_config={",
-        "detail": "Production-Model.app copy",
-        "documentation": {}
-    },
-    {
-        "label": "app.secret_key",
-        "kind": 5,
-        "importPath": "Production-Model.app copy",
-        "description": "Production-Model.app copy",
-        "peekOfCode": "app.secret_key = \"your_secret_key\"  # Replace with your actual secret key\n# Load Gemini API Key securely\nos.environ[\"GEMINI_API_KEY\"] = \"AIzaSyAy0IUrqWfBs6ITZvjU3F8Hq31l-EPqD6o\"  # Replace with your actual API key\ndef configure_gemini_api():\n    try:\n        genai.configure(api_key=os.environ[\"GEMINI_API_KEY\"])\n        return genai.GenerativeModel(\n            model_name=\"gemini-1.5-flash\",\n            generation_config={\n                \"temperature\": 0.7,",
-        "detail": "Production-Model.app copy",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"GEMINI_API_KEY\"]",
-        "kind": 5,
-        "importPath": "Production-Model.app copy",
-        "description": "Production-Model.app copy",
-        "peekOfCode": "os.environ[\"GEMINI_API_KEY\"] = \"AIzaSyAy0IUrqWfBs6ITZvjU3F8Hq31l-EPqD6o\"  # Replace with your actual API key\ndef configure_gemini_api():\n    try:\n        genai.configure(api_key=os.environ[\"GEMINI_API_KEY\"])\n        return genai.GenerativeModel(\n            model_name=\"gemini-1.5-flash\",\n            generation_config={\n                \"temperature\": 0.7,\n                \"top_p\": 0.95,\n                \"top_k\": 40,",
-        "detail": "Production-Model.app copy",
-        "documentation": {}
-    },
-    {
-        "label": "chat_model",
-        "kind": 5,
-        "importPath": "Production-Model.app copy",
-        "description": "Production-Model.app copy",
-        "peekOfCode": "chat_model = configure_gemini_api()\n# Database configuration\nDATABASE_URL = \"mysql+pymysql://root@localhost:3306/collegedata\"  # Replace with your actual details\ndef fetch_data_from_db(query, params=None):\n    \"\"\"Fetch data from the database.\"\"\"\n    try:\n        engine = sqlalchemy.create_engine(DATABASE_URL)\n        with engine.connect() as connection:\n            if params:\n                return pd.read_sql(query, connection, params=params)",
-        "detail": "Production-Model.app copy",
-        "documentation": {}
-    },
-    {
-        "label": "DATABASE_URL",
-        "kind": 5,
-        "importPath": "Production-Model.app copy",
-        "description": "Production-Model.app copy",
-        "peekOfCode": "DATABASE_URL = \"mysql+pymysql://root@localhost:3306/collegedata\"  # Replace with your actual details\ndef fetch_data_from_db(query, params=None):\n    \"\"\"Fetch data from the database.\"\"\"\n    try:\n        engine = sqlalchemy.create_engine(DATABASE_URL)\n        with engine.connect() as connection:\n            if params:\n                return pd.read_sql(query, connection, params=params)\n            return pd.read_sql(query, connection)\n    except Exception as e:",
-        "detail": "Production-Model.app copy",
-        "documentation": {}
-    },
-    {
-        "label": "table_mapping",
-        "kind": 5,
-        "importPath": "Production-Model.app copy",
-        "description": "Production-Model.app copy",
-        "peekOfCode": "table_mapping = {\n    \"placement\": \"sanjivaniplacementinfo\",\n    \"admission\": \"admission_requirements\",\n    \"department\": \"department_details\",\n    \"cutoff\": \"admission_requirements\",\n    \"score\":\"admission_requirements\",\n    \"faculty\": \"department_details\",\n    \"professor\": \"department_details\",\n    \"fees\": \"admission_requirements\",\n    \"intake\":\"admission_requirements\",",
-        "detail": "Production-Model.app copy",
-        "documentation": {}
-    },
-    {
-        "label": "file_path",
-        "kind": 5,
-        "importPath": "Production-Model.app copy",
-        "description": "Production-Model.app copy",
-        "peekOfCode": "file_path = os.path.abspath(\"./intents.json\")\nwith open(file_path, \"r\") as file:\n    intents = json.load(file)\nvectorizer = TfidfVectorizer()\nclf = LogisticRegression(random_state=0, max_iter=10000)\npatterns, tags = [], []\nfor intent in intents:\n    for pattern in intent['patterns']:\n        patterns.append(pattern)\n        tags.append(intent['tag'])",
-        "detail": "Production-Model.app copy",
-        "documentation": {}
-    },
-    {
-        "label": "vectorizer",
-        "kind": 5,
-        "importPath": "Production-Model.app copy",
-        "description": "Production-Model.app copy",
-        "peekOfCode": "vectorizer = TfidfVectorizer()\nclf = LogisticRegression(random_state=0, max_iter=10000)\npatterns, tags = [], []\nfor intent in intents:\n    for pattern in intent['patterns']:\n        patterns.append(pattern)\n        tags.append(intent['tag'])\nx = vectorizer.fit_transform(patterns)\ny = tags\nclf.fit(x, y)",
-        "detail": "Production-Model.app copy",
-        "documentation": {}
-    },
-    {
-        "label": "clf",
-        "kind": 5,
-        "importPath": "Production-Model.app copy",
-        "description": "Production-Model.app copy",
-        "peekOfCode": "clf = LogisticRegression(random_state=0, max_iter=10000)\npatterns, tags = [], []\nfor intent in intents:\n    for pattern in intent['patterns']:\n        patterns.append(pattern)\n        tags.append(intent['tag'])\nx = vectorizer.fit_transform(patterns)\ny = tags\nclf.fit(x, y)\n# Generate fallback response",
-        "detail": "Production-Model.app copy",
-        "documentation": {}
-    },
-    {
-        "label": "x",
-        "kind": 5,
-        "importPath": "Production-Model.app copy",
-        "description": "Production-Model.app copy",
-        "peekOfCode": "x = vectorizer.fit_transform(patterns)\ny = tags\nclf.fit(x, y)\n# Generate fallback response\ndef check_intents_for_fallback(user_query, threshold=85):\n    best_score, best_response = 0, None\n    user_query_lower = user_query.lower()  # Convert user query to lowercase\n    for intent in intents:\n        # Normalize intent patterns to lowercase for matching\n        patterns_lower = [pattern.lower() for pattern in intent.get(\"patterns\", [])]",
-        "detail": "Production-Model.app copy",
-        "documentation": {}
-    },
-    {
-        "label": "y",
-        "kind": 5,
-        "importPath": "Production-Model.app copy",
-        "description": "Production-Model.app copy",
-        "peekOfCode": "y = tags\nclf.fit(x, y)\n# Generate fallback response\ndef check_intents_for_fallback(user_query, threshold=85):\n    best_score, best_response = 0, None\n    user_query_lower = user_query.lower()  # Convert user query to lowercase\n    for intent in intents:\n        # Normalize intent patterns to lowercase for matching\n        patterns_lower = [pattern.lower() for pattern in intent.get(\"patterns\", [])]\n        match = process.extractOne(user_query_lower, patterns_lower)",
-        "detail": "Production-Model.app copy",
-        "documentation": {}
-    },
-    {
-        "label": "app.config['SQLALCHEMY_DATABASE_URI']",
-        "kind": 5,
-        "importPath": "Production-Model.app copy",
-        "description": "Production-Model.app copy",
-        "peekOfCode": "app.config['SQLALCHEMY_DATABASE_URI'] = DATABASE_URL\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\nclass SanjivaniPlacementInfo(db.Model):\n    __tablename__ = 'sanjivaniplacementinfo'\n    id = db.Column(db.Integer, primary_key=True)\n    student_name = db.Column(db.String(100), nullable=False)\n    batch = db.Column(db.String(20), nullable=False)\n    placement_type = db.Column(db.String(50), nullable=False)\n    name_of_company = db.Column(db.String(100), nullable=False)",
-        "detail": "Production-Model.app copy",
-        "documentation": {}
-    },
-    {
-        "label": "app.config['SQLALCHEMY_TRACK_MODIFICATIONS']",
-        "kind": 5,
-        "importPath": "Production-Model.app copy",
-        "description": "Production-Model.app copy",
-        "peekOfCode": "app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\nclass SanjivaniPlacementInfo(db.Model):\n    __tablename__ = 'sanjivaniplacementinfo'\n    id = db.Column(db.Integer, primary_key=True)\n    student_name = db.Column(db.String(100), nullable=False)\n    batch = db.Column(db.String(20), nullable=False)\n    placement_type = db.Column(db.String(50), nullable=False)\n    name_of_company = db.Column(db.String(100), nullable=False)\n    department = db.Column(db.String(100), nullable=False)",
-        "detail": "Production-Model.app copy",
-        "documentation": {}
-    },
-    {
-        "label": "db",
-        "kind": 5,
-        "importPath": "Production-Model.app copy",
-        "description": "Production-Model.app copy",
-        "peekOfCode": "db = SQLAlchemy(app)\nclass SanjivaniPlacementInfo(db.Model):\n    __tablename__ = 'sanjivaniplacementinfo'\n    id = db.Column(db.Integer, primary_key=True)\n    student_name = db.Column(db.String(100), nullable=False)\n    batch = db.Column(db.String(20), nullable=False)\n    placement_type = db.Column(db.String(50), nullable=False)\n    name_of_company = db.Column(db.String(100), nullable=False)\n    department = db.Column(db.String(100), nullable=False)\n@app.route(\"/get_history\", methods=[\"GET\"])",
-        "detail": "Production-Model.app copy",
-        "documentation": {}
-    },
-    {
-        "label": "IntentClassifier",
-        "kind": 6,
-        "importPath": "Production-Model.app",
-        "description": "Production-Model.app",
-        "peekOfCode": "class IntentClassifier:\n    def __init__(self, intents_file=\"./intents.json\"):\n        self.vectorizer = TfidfVectorizer()\n        self.clf = LogisticRegression(random_state=0, max_iter=10000)\n        self.intents = []\n        self._load_and_train(intents_file)\n    def _load_and_train(self, intents_file):\n        \"\"\"Load intents from JSON and train the classifier.\"\"\"\n        try:\n            with open(intents_file, \"r\") as file:",
-        "detail": "Production-Model.app",
-        "documentation": {}
-    },
-    {
-        "label": "SanjivaniPlacementInfo",
-        "kind": 6,
-        "importPath": "Production-Model.app",
-        "description": "Production-Model.app",
-        "peekOfCode": "class SanjivaniPlacementInfo(db.Model):\n    __tablename__ = 'sanjivaniplacementinfo'\n    id = db.Column(db.Integer, primary_key=True)\n    student_name = db.Column(db.String(100), nullable=False)\n    batch = db.Column(db.String(20), nullable=False)\n    placement_type = db.Column(db.String(50), nullable=False)\n    name_of_company = db.Column(db.String(100), nullable=False)\n    department = db.Column(db.String(100), nullable=False)\n    def to_dict(self):\n        return {",
-        "detail": "Production-Model.app",
-        "documentation": {}
-    },
-    {
-        "label": "ChatHistory",
-        "kind": 6,
-        "importPath": "Production-Model.app",
-        "description": "Production-Model.app",
-        "peekOfCode": "class ChatHistory(db.Model):\n    __tablename__ = 'chat_history'\n    id = db.Column(db.Integer, primary_key=True)\n    user_input = db.Column(db.Text, nullable=False)\n    bot_response = db.Column(db.Text, nullable=False)\n    timestamp = db.Column(db.DateTime, nullable=False, default=datetime.datetime.utcnow)\n# Table mapping for query processing\ntable_mapping = {\n    \"placement\": \"sanjivaniplacementinfo\",\n    \"admission\": \"admission_requirements\",",
-        "detail": "Production-Model.app",
-        "documentation": {}
-    },
-    {
-        "label": "configure_gemini_api",
-        "kind": 2,
-        "importPath": "Production-Model.app",
-        "description": "Production-Model.app",
-        "peekOfCode": "def configure_gemini_api():\n    \"\"\"Configure the Gemini API client with environment variable key.\"\"\"\n    try:\n        genai.configure(api_key=os.getenv(\"GEMINI_API_KEY\"))\n        return genai.GenerativeModel(\n            model_name=\"gemini-1.5-flash\",\n            generation_config={\n                \"temperature\": 0.7,\n                \"top_p\": 0.95,\n                \"top_k\": 40,",
-        "detail": "Production-Model.app",
-        "documentation": {}
-    },
-    {
-        "label": "find_closest_match",
-        "kind": 2,
-        "importPath": "Production-Model.app",
-        "description": "Production-Model.app",
-        "peekOfCode": "def find_closest_match(query, options, threshold=50):\n    \"\"\"Find the closest matching keyword using fuzzy matching.\"\"\"\n    if not query or not options:\n        return None\n    closest_match = process.extractOne(query.lower(), options)\n    if closest_match:\n        match, score = closest_match[:2]\n        return match if score >= threshold else None\n    return None\n@cache.memoize(timeout=300)  # Cache for 5 minutes",
-        "detail": "Production-Model.app",
-        "documentation": {}
-    },
-    {
-        "label": "ask_gemini",
-        "kind": 2,
-        "importPath": "Production-Model.app",
-        "description": "Production-Model.app",
-        "peekOfCode": "def ask_gemini(prompt):\n    \"\"\"Send a prompt to the Gemini API and return the response.\"\"\"\n    if not chat_model:\n        return \"Error: Gemini API is not configured.\"\n    try:\n        chat_session = chat_model.start_chat(history=[])\n        response = chat_session.send_message(prompt)\n        return response.text.strip()\n    except Exception as e:\n        app.logger.error(f\"Gemini API error: {str(e)}\")",
-        "detail": "Production-Model.app",
-        "documentation": {}
-    },
-    {
-        "label": "process_query",
-        "kind": 2,
-        "importPath": "Production-Model.app",
-        "description": "Production-Model.app",
-        "peekOfCode": "def process_query(user_query):\n    \"\"\"Process a user query and return a response from database or fallback.\"\"\"\n    if not user_query or not isinstance(user_query, str):\n        return \"Invalid query provided.\"\n    keywords = list(table_mapping.keys())\n    matched_keyword = find_closest_match(user_query.lower(), keywords)\n    if matched_keyword:\n        table_name = table_mapping[matched_keyword]\n        try:\n            # Use specific columns to reduce data transfer",
-        "detail": "Production-Model.app",
-        "documentation": {}
-    },
-    {
-        "label": "get_response",
-        "kind": 2,
-        "importPath": "Production-Model.app",
-        "description": "Production-Model.app",
-        "peekOfCode": "def get_response():\n    \"\"\"Handle user queries and return chatbot responses.\"\"\"\n    data = request.get_json()\n    user_input = data.get(\"user_input\", \"\").strip()\n    if not user_input:\n        return jsonify({\"response\": \"Please enter a valid message.\"}), 400\n    response = process_query(user_input)\n    timestamp = datetime.datetime.utcnow()\n    # Store in session\n    if 'chat_history' not in session:",
-        "detail": "Production-Model.app",
-        "documentation": {}
-    },
-    {
-        "label": "admin_panel_post",
-        "kind": 2,
-        "importPath": "Production-Model.app",
-        "description": "Production-Model.app",
-        "peekOfCode": "def admin_panel_post():\n    \"\"\"Add a new placement record (requires authentication in production).\"\"\"\n    data = request.get_json()\n    form_type = data.get('form_type')\n    if form_type != 'placement':\n        return jsonify({\"success\": False, \"message\": \"Invalid form type\"}), 400\n    try:\n        placement = SanjivaniPlacementInfo(\n            student_name=data['name_of_student'],\n            batch=data['batch'],",
-        "detail": "Production-Model.app",
-        "documentation": {}
-    },
-    {
-        "label": "delete_placement",
-        "kind": 2,
-        "importPath": "Production-Model.app",
-        "description": "Production-Model.app",
-        "peekOfCode": "def delete_placement(id):\n    \"\"\"Delete a placement record by ID.\"\"\"\n    try:\n        placement = SanjivaniPlacementInfo.query.get_or_404(id)\n        db.session.delete(placement)\n        db.session.commit()\n        return jsonify({\"success\": True, \"message\": \"Record deleted successfully\"})\n    except DatabaseError as e:\n        db.session.rollback()\n        return jsonify({\"success\": False, \"error\": str(e)}), 500",
-        "detail": "Production-Model.app",
-        "documentation": {}
-    },
-    {
-        "label": "update_placement",
-        "kind": 2,
-        "importPath": "Production-Model.app",
-        "description": "Production-Model.app",
-        "peekOfCode": "def update_placement(id):\n    \"\"\"Update a placement record by ID.\"\"\"\n    try:\n        placement = SanjivaniPlacementInfo.query.get_or_404(id)\n        data = request.get_json()\n        placement.student_name = data['name_of_student']\n        placement.batch = data['batch']\n        placement.placement_type = data['placementtype']\n        placement.name_of_company = data['company']\n        placement.department = data['department']",
-        "detail": "Production-Model.app",
-        "documentation": {}
-    },
-    {
-        "label": "show_placements",
-        "kind": 2,
-        "importPath": "Production-Model.app",
-        "description": "Production-Model.app",
-        "peekOfCode": "def show_placements():\n    \"\"\"Retrieve paginated placement records.\"\"\"\n    page = request.args.get('page', 1, type=int)\n    per_page = 10\n    placements = SanjivaniPlacementInfo.query.paginate(page=page, per_page=per_page, error_out=False)\n    return jsonify({\n        \"items\": [p.to_dict() for p in placements.items],\n        \"page\": placements.page,\n        \"pages\": placements.pages,\n        \"total\": placements.total",
-        "detail": "Production-Model.app",
-        "documentation": {}
-    },
-    {
-        "label": "get_history",
-        "kind": 2,
-        "importPath": "Production-Model.app",
-        "description": "Production-Model.app",
-        "peekOfCode": "def get_history():\n    \"\"\"Retrieve chat history from session.\"\"\"\n    chat_history = session.get(\"chat_history\", [])\n    return jsonify({\"history\": chat_history})\n@app.route(\"/history\", methods=[\"GET\"])\ndef conversation_history():\n    \"\"\"Retrieve chat history from database.\"\"\"\n    try:\n        history = ChatHistory.query.order_by(ChatHistory.timestamp.desc()).limit(100).all()\n        return jsonify([{",
-        "detail": "Production-Model.app",
-        "documentation": {}
-    },
-    {
-        "label": "conversation_history",
-        "kind": 2,
-        "importPath": "Production-Model.app",
-        "description": "Production-Model.app",
-        "peekOfCode": "def conversation_history():\n    \"\"\"Retrieve chat history from database.\"\"\"\n    try:\n        history = ChatHistory.query.order_by(ChatHistory.timestamp.desc()).limit(100).all()\n        return jsonify([{\n            \"user\": h.user_input,\n            \"bot\": h.bot_response,\n            \"timestamp\": h.timestamp.isoformat()\n        } for h in history])\n    except DatabaseError as e:",
-        "detail": "Production-Model.app",
-        "documentation": {}
-    },
-    {
-        "label": "about",
-        "kind": 2,
-        "importPath": "Production-Model.app",
-        "description": "Production-Model.app",
-        "peekOfCode": "def about():\n    \"\"\"Render the about page.\"\"\"\n    return render_template(\"about.html\")\n@app.route('/login')\ndef login():\n    \"\"\"Render the login page.\"\"\"\n    return render_template('login.html')\nif __name__ == \"__main__\":\n    with app.app_context():\n        db.create_all()  # Create database tables if they don't exist",
-        "detail": "Production-Model.app",
-        "documentation": {}
-    },
-    {
-        "label": "login",
-        "kind": 2,
-        "importPath": "Production-Model.app",
-        "description": "Production-Model.app",
-        "peekOfCode": "def login():\n    \"\"\"Render the login page.\"\"\"\n    return render_template('login.html')\nif __name__ == \"__main__\":\n    with app.app_context():\n        db.create_all()  # Create database tables if they don't exist\n    app.run(debug=True)",
-        "detail": "Production-Model.app",
-        "documentation": {}
-    },
-    {
-        "label": "app",
-        "kind": 5,
-        "importPath": "Production-Model.app",
-        "description": "Production-Model.app",
-        "peekOfCode": "app = Flask(__name__)\napp.secret_key = os.getenv(\"FLASK_SECRET_KEY\", \"default_secret_key\")\napp.config['SQLALCHEMY_DATABASE_URI'] = os.getenv(\"DATABASE_URL\", \"mysql+pymysql://root@localhost:3306/collegedata\")\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\napp.config['CACHE_TYPE'] = 'SimpleCache'  # In-memory cache for development\nCORS(app, supports_credentials=True, origins=[os.getenv(\"FRONTEND_URL\", \"http://localhost:5173\")])\ndb = SQLAlchemy(app)\ncache = Cache(app)\n# Initialize Limiter with correct syntax\nlimiter = Limiter(",
-        "detail": "Production-Model.app",
-        "documentation": {}
-    },
-    {
-        "label": "app.secret_key",
-        "kind": 5,
-        "importPath": "Production-Model.app",
-        "description": "Production-Model.app",
-        "peekOfCode": "app.secret_key = os.getenv(\"FLASK_SECRET_KEY\", \"default_secret_key\")\napp.config['SQLALCHEMY_DATABASE_URI'] = os.getenv(\"DATABASE_URL\", \"mysql+pymysql://root@localhost:3306/collegedata\")\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\napp.config['CACHE_TYPE'] = 'SimpleCache'  # In-memory cache for development\nCORS(app, supports_credentials=True, origins=[os.getenv(\"FRONTEND_URL\", \"http://localhost:5173\")])\ndb = SQLAlchemy(app)\ncache = Cache(app)\n# Initialize Limiter with correct syntax\nlimiter = Limiter(\n    get_remote_address,",
-        "detail": "Production-Model.app",
-        "documentation": {}
-    },
-    {
-        "label": "app.config['SQLALCHEMY_DATABASE_URI']",
-        "kind": 5,
-        "importPath": "Production-Model.app",
-        "description": "Production-Model.app",
-        "peekOfCode": "app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv(\"DATABASE_URL\", \"mysql+pymysql://root@localhost:3306/collegedata\")\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\napp.config['CACHE_TYPE'] = 'SimpleCache'  # In-memory cache for development\nCORS(app, supports_credentials=True, origins=[os.getenv(\"FRONTEND_URL\", \"http://localhost:5173\")])\ndb = SQLAlchemy(app)\ncache = Cache(app)\n# Initialize Limiter with correct syntax\nlimiter = Limiter(\n    get_remote_address,\n    app=app,",
-        "detail": "Production-Model.app",
-        "documentation": {}
-    },
-    {
-        "label": "app.config['SQLALCHEMY_TRACK_MODIFICATIONS']",
-        "kind": 5,
-        "importPath": "Production-Model.app",
-        "description": "Production-Model.app",
-        "peekOfCode": "app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\napp.config['CACHE_TYPE'] = 'SimpleCache'  # In-memory cache for development\nCORS(app, supports_credentials=True, origins=[os.getenv(\"FRONTEND_URL\", \"http://localhost:5173\")])\ndb = SQLAlchemy(app)\ncache = Cache(app)\n# Initialize Limiter with correct syntax\nlimiter = Limiter(\n    get_remote_address,\n    app=app,\n    default_limits=[\"200 per day\", \"50 per hour\"]",
-        "detail": "Production-Model.app",
-        "documentation": {}
-    },
-    {
-        "label": "app.config['CACHE_TYPE']",
-        "kind": 5,
-        "importPath": "Production-Model.app",
-        "description": "Production-Model.app",
-        "peekOfCode": "app.config['CACHE_TYPE'] = 'SimpleCache'  # In-memory cache for development\nCORS(app, supports_credentials=True, origins=[os.getenv(\"FRONTEND_URL\", \"http://localhost:5173\")])\ndb = SQLAlchemy(app)\ncache = Cache(app)\n# Initialize Limiter with correct syntax\nlimiter = Limiter(\n    get_remote_address,\n    app=app,\n    default_limits=[\"200 per day\", \"50 per hour\"]\n)",
-        "detail": "Production-Model.app",
-        "documentation": {}
-    },
-    {
-        "label": "db",
-        "kind": 5,
-        "importPath": "Production-Model.app",
-        "description": "Production-Model.app",
-        "peekOfCode": "db = SQLAlchemy(app)\ncache = Cache(app)\n# Initialize Limiter with correct syntax\nlimiter = Limiter(\n    get_remote_address,\n    app=app,\n    default_limits=[\"200 per day\", \"50 per hour\"]\n)\n# Gemini API configuration\ndef configure_gemini_api():",
-        "detail": "Production-Model.app",
-        "documentation": {}
-    },
-    {
-        "label": "cache",
-        "kind": 5,
-        "importPath": "Production-Model.app",
-        "description": "Production-Model.app",
-        "peekOfCode": "cache = Cache(app)\n# Initialize Limiter with correct syntax\nlimiter = Limiter(\n    get_remote_address,\n    app=app,\n    default_limits=[\"200 per day\", \"50 per hour\"]\n)\n# Gemini API configuration\ndef configure_gemini_api():\n    \"\"\"Configure the Gemini API client with environment variable key.\"\"\"",
-        "detail": "Production-Model.app",
-        "documentation": {}
-    },
-    {
-        "label": "limiter",
-        "kind": 5,
-        "importPath": "Production-Model.app",
-        "description": "Production-Model.app",
-        "peekOfCode": "limiter = Limiter(\n    get_remote_address,\n    app=app,\n    default_limits=[\"200 per day\", \"50 per hour\"]\n)\n# Gemini API configuration\ndef configure_gemini_api():\n    \"\"\"Configure the Gemini API client with environment variable key.\"\"\"\n    try:\n        genai.configure(api_key=os.getenv(\"GEMINI_API_KEY\"))",
-        "detail": "Production-Model.app",
-        "documentation": {}
-    },
-    {
-        "label": "chat_model",
-        "kind": 5,
-        "importPath": "Production-Model.app",
-        "description": "Production-Model.app",
-        "peekOfCode": "chat_model = configure_gemini_api()\nif not chat_model:\n    raise RuntimeError(\"Gemini API configuration failed. Check API key.\")\n# Intent classification model (preloaded at startup)\nclass IntentClassifier:\n    def __init__(self, intents_file=\"./intents.json\"):\n        self.vectorizer = TfidfVectorizer()\n        self.clf = LogisticRegression(random_state=0, max_iter=10000)\n        self.intents = []\n        self._load_and_train(intents_file)",
-        "detail": "Production-Model.app",
-        "documentation": {}
-    },
-    {
-        "label": "intent_classifier",
-        "kind": 5,
-        "importPath": "Production-Model.app",
-        "description": "Production-Model.app",
-        "peekOfCode": "intent_classifier = IntentClassifier()\n# Database models\nclass SanjivaniPlacementInfo(db.Model):\n    __tablename__ = 'sanjivaniplacementinfo'\n    id = db.Column(db.Integer, primary_key=True)\n    student_name = db.Column(db.String(100), nullable=False)\n    batch = db.Column(db.String(20), nullable=False)\n    placement_type = db.Column(db.String(50), nullable=False)\n    name_of_company = db.Column(db.String(100), nullable=False)\n    department = db.Column(db.String(100), nullable=False)",
-        "detail": "Production-Model.app",
-        "documentation": {}
-    },
-    {
-        "label": "table_mapping",
-        "kind": 5,
-        "importPath": "Production-Model.app",
-        "description": "Production-Model.app",
-        "peekOfCode": "table_mapping = {\n    \"placement\": \"sanjivaniplacementinfo\",\n    \"admission\": \"admission_requirements\",\n    \"department\": \"department_details\",\n    \"cutoff\": \"admission_requirements\",\n    \"score\": \"admission_requirements\",\n    \"faculty\": \"department_details\",\n    \"professor\": \"department_details\",\n    \"fees\": \"admission_requirements\",\n    \"intake\": \"admission_requirements\",",
-        "detail": "Production-Model.app",
         "documentation": {}
     }
 ]
