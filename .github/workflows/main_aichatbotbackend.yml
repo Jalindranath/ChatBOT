@@ -38,7 +38,6 @@ jobs:
 
       - name: Zip artifact for deployment
         run: |
-          cd backend
           zip -r ../release.zip .
         working-directory: backend
 
