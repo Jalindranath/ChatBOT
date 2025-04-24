@@ -474,7 +474,7 @@ from rapidfuzz import process
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sqlalchemy.exc import DatabaseError
-
+from urllib.parse import quote_plus
 # Load environment variables
 load_dotenv()
 
@@ -486,7 +486,7 @@ app.secret_key = os.getenv("FLASK_SECRET_KEY", "default_secret_key")
 
 # Configure SQLAlchemy for Azure MySQL
 db_user = os.getenv("MYSQL_USER", "Nath")
-db_password = os.getenv("MYSQL_PASSWORD", "Moonlight@123")
+db_password = quote_plus(os.getenv("MYSQL_PASSWORD", "Moonlight@123"))  # Encodes special characters
 db_host = os.getenv("MYSQL_HOST", "chatbot-mysql-server.mysql.database.azure.com")
 db_name = os.getenv("MYSQL_DATABASE", "collegedata")
 ssl_ca_path = os.path.join(os.path.dirname(__file__), "DigiCertGlobalRootG2.crt.pem")
