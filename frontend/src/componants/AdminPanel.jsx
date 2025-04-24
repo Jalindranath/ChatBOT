@@ -9,7 +9,10 @@ function AdminPanel() {
   const [message, setMessage] = useState(null);
   const [error, setError] = useState(null);
   const [isEditing, setIsEditing] = useState(null);
-  const API_BASE = 'http://localhost:5000';
+  // const API_BASE = 'http://localhost:5000';
+  const API_BASE = 'https://aichatbotbackend-c3bee3gtbxfjf0bv.centralindia-01.azurewebsites.net';
+
+
   const axiosConfig = {
     withCredentials: true
   };
