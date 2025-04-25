@@ -715,7 +715,7 @@
         "kind": 5,
         "importPath": "backend.app",
         "description": "backend.app",
-        "peekOfCode": "app = Flask(__name__)\napp.secret_key = os.getenv(\"FLASK_SECRET_KEY\", \"default_secret_key\")\n#########################\n# Configure SQLAlchemy for Azure MySQL\ndb_user = os.getenv(\"MYSQL_USER\", \"Nath\")\ndb_password = quote_plus(os.getenv(\"MYSQL_PASSWORD\", \"Moonlight@123\"))  # Encodes special characters\ndb_host = os.getenv(\"MYSQL_HOST\", \"chatbot-mysql-server.mysql.database.azure.com\")\ndb_name = os.getenv(\"MYSQL_DATABASE\", \"collegedata\")\nssl_ca_path = os.path.join(os.path.dirname(__file__), \"DigiCertGlobalRootG2.crt.pem\")\napp.config['SQLALCHEMY_DATABASE_URI'] = (",
+        "peekOfCode": "app = Flask(__name__)\napp.secret_key = os.getenv(\"FLASK_SECRET_KEY\", \"default_secret_key\")\n#########################\n# # Configure SQLAlchemy for Azure MySQL\n# db_user = os.getenv(\"MYSQL_USER\", \"Nath\")\n# db_password = quote_plus(os.getenv(\"MYSQL_PASSWORD\", \"Moonlight@123\"))  # Encodes special characters\n# db_host = os.getenv(\"MYSQL_HOST\", \"chatbot-mysql-server.mysql.database.azure.com\")\n# db_name = os.getenv(\"MYSQL_DATABASE\", \"collegedata\")\n# ssl_ca_path = os.path.join(os.path.dirname(__file__), \"DigiCertGlobalRootG2.crt.pem\")\n# app.config['SQLALCHEMY_DATABASE_URI'] = (",
         "detail": "backend.app",
         "documentation": {}
     },
@@ -724,7 +724,7 @@
         "kind": 5,
         "importPath": "backend.app",
         "description": "backend.app",
-        "peekOfCode": "app.secret_key = os.getenv(\"FLASK_SECRET_KEY\", \"default_secret_key\")\n#########################\n# Configure SQLAlchemy for Azure MySQL\ndb_user = os.getenv(\"MYSQL_USER\", \"Nath\")\ndb_password = quote_plus(os.getenv(\"MYSQL_PASSWORD\", \"Moonlight@123\"))  # Encodes special characters\ndb_host = os.getenv(\"MYSQL_HOST\", \"chatbot-mysql-server.mysql.database.azure.com\")\ndb_name = os.getenv(\"MYSQL_DATABASE\", \"collegedata\")\nssl_ca_path = os.path.join(os.path.dirname(__file__), \"DigiCertGlobalRootG2.crt.pem\")\napp.config['SQLALCHEMY_DATABASE_URI'] = (\n    f\"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}\"",
+        "peekOfCode": "app.secret_key = os.getenv(\"FLASK_SECRET_KEY\", \"default_secret_key\")\n#########################\n# # Configure SQLAlchemy for Azure MySQL\n# db_user = os.getenv(\"MYSQL_USER\", \"Nath\")\n# db_password = quote_plus(os.getenv(\"MYSQL_PASSWORD\", \"Moonlight@123\"))  # Encodes special characters\n# db_host = os.getenv(\"MYSQL_HOST\", \"chatbot-mysql-server.mysql.database.azure.com\")\n# db_name = os.getenv(\"MYSQL_DATABASE\", \"collegedata\")\n# ssl_ca_path = os.path.join(os.path.dirname(__file__), \"DigiCertGlobalRootG2.crt.pem\")\n# app.config['SQLALCHEMY_DATABASE_URI'] = (\n#     f\"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}\"",
         "detail": "backend.app",
         "documentation": {}
     },
@@ -733,7 +733,7 @@
         "kind": 5,
         "importPath": "backend.app",
         "description": "backend.app",
-        "peekOfCode": "db_user = os.getenv(\"MYSQL_USER\", \"Nath\")\ndb_password = quote_plus(os.getenv(\"MYSQL_PASSWORD\", \"Moonlight@123\"))  # Encodes special characters\ndb_host = os.getenv(\"MYSQL_HOST\", \"chatbot-mysql-server.mysql.database.azure.com\")\ndb_name = os.getenv(\"MYSQL_DATABASE\", \"collegedata\")\nssl_ca_path = os.path.join(os.path.dirname(__file__), \"DigiCertGlobalRootG2.crt.pem\")\napp.config['SQLALCHEMY_DATABASE_URI'] = (\n    f\"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}\"\n    f\"?ssl_ca={ssl_ca_path}&ssl_disabled=False\"\n)\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False",
+        "peekOfCode": "db_user = os.getenv(\"MYSQL_USER\", \"Nath\")\ndb_password = quote_plus(os.getenv(\"MYSQL_PASSWORD\", \"Moonlight@123\"))\ndb_host = os.getenv(\"MYSQL_HOST\", \"chatbot-mysql-server.mysql.database.azure.com\")\ndb_name = os.getenv(\"MYSQL_DATABASE\", \"collegedata\")\nssl_ca_path = os.path.join(os.path.dirname(__file__), \"DigiCertGlobalRootG2.crt.pem\")\napp.config['SQLALCHEMY_DATABASE_URI'] = (\n    f\"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}\"\n    f\"?ssl_ca={ssl_ca_path}\"\n)\napp.config['SQLALCHEMY_ENGINE_OPTIONS'] = {",
         "detail": "backend.app",
         "documentation": {}
     },
@@ -742,7 +742,7 @@
         "kind": 5,
         "importPath": "backend.app",
         "description": "backend.app",
-        "peekOfCode": "db_password = quote_plus(os.getenv(\"MYSQL_PASSWORD\", \"Moonlight@123\"))  # Encodes special characters\ndb_host = os.getenv(\"MYSQL_HOST\", \"chatbot-mysql-server.mysql.database.azure.com\")\ndb_name = os.getenv(\"MYSQL_DATABASE\", \"collegedata\")\nssl_ca_path = os.path.join(os.path.dirname(__file__), \"DigiCertGlobalRootG2.crt.pem\")\napp.config['SQLALCHEMY_DATABASE_URI'] = (\n    f\"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}\"\n    f\"?ssl_ca={ssl_ca_path}&ssl_disabled=False\"\n)\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)",
+        "peekOfCode": "db_password = quote_plus(os.getenv(\"MYSQL_PASSWORD\", \"Moonlight@123\"))\ndb_host = os.getenv(\"MYSQL_HOST\", \"chatbot-mysql-server.mysql.database.azure.com\")\ndb_name = os.getenv(\"MYSQL_DATABASE\", \"collegedata\")\nssl_ca_path = os.path.join(os.path.dirname(__file__), \"DigiCertGlobalRootG2.crt.pem\")\napp.config['SQLALCHEMY_DATABASE_URI'] = (\n    f\"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}\"\n    f\"?ssl_ca={ssl_ca_path}\"\n)\napp.config['SQLALCHEMY_ENGINE_OPTIONS'] = {\n    \"connect_args\": {",
         "detail": "backend.app",
         "documentation": {}
     },
@@ -751,7 +751,7 @@
         "kind": 5,
         "importPath": "backend.app",
         "description": "backend.app",
-        "peekOfCode": "db_host = os.getenv(\"MYSQL_HOST\", \"chatbot-mysql-server.mysql.database.azure.com\")\ndb_name = os.getenv(\"MYSQL_DATABASE\", \"collegedata\")\nssl_ca_path = os.path.join(os.path.dirname(__file__), \"DigiCertGlobalRootG2.crt.pem\")\napp.config['SQLALCHEMY_DATABASE_URI'] = (\n    f\"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}\"\n    f\"?ssl_ca={ssl_ca_path}&ssl_disabled=False\"\n)\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\n##################",
+        "peekOfCode": "db_host = os.getenv(\"MYSQL_HOST\", \"chatbot-mysql-server.mysql.database.azure.com\")\ndb_name = os.getenv(\"MYSQL_DATABASE\", \"collegedata\")\nssl_ca_path = os.path.join(os.path.dirname(__file__), \"DigiCertGlobalRootG2.crt.pem\")\napp.config['SQLALCHEMY_DATABASE_URI'] = (\n    f\"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}\"\n    f\"?ssl_ca={ssl_ca_path}\"\n)\napp.config['SQLALCHEMY_ENGINE_OPTIONS'] = {\n    \"connect_args\": {\n        \"ssl\": {\"ca\": ssl_ca_path}",
         "detail": "backend.app",
         "documentation": {}
     },
@@ -760,7 +760,7 @@
         "kind": 5,
         "importPath": "backend.app",
         "description": "backend.app",
-        "peekOfCode": "db_name = os.getenv(\"MYSQL_DATABASE\", \"collegedata\")\nssl_ca_path = os.path.join(os.path.dirname(__file__), \"DigiCertGlobalRootG2.crt.pem\")\napp.config['SQLALCHEMY_DATABASE_URI'] = (\n    f\"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}\"\n    f\"?ssl_ca={ssl_ca_path}&ssl_disabled=False\"\n)\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\n##################\n# app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv(\"DATABASE_URL\", \"mysql+pymysql://root@localhost:3306/collegedata\")",
+        "peekOfCode": "db_name = os.getenv(\"MYSQL_DATABASE\", \"collegedata\")\nssl_ca_path = os.path.join(os.path.dirname(__file__), \"DigiCertGlobalRootG2.crt.pem\")\napp.config['SQLALCHEMY_DATABASE_URI'] = (\n    f\"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}\"\n    f\"?ssl_ca={ssl_ca_path}\"\n)\napp.config['SQLALCHEMY_ENGINE_OPTIONS'] = {\n    \"connect_args\": {\n        \"ssl\": {\"ca\": ssl_ca_path}\n    }",
         "detail": "backend.app",
         "documentation": {}
     },
@@ -769,7 +769,7 @@
         "kind": 5,
         "importPath": "backend.app",
         "description": "backend.app",
-        "peekOfCode": "ssl_ca_path = os.path.join(os.path.dirname(__file__), \"DigiCertGlobalRootG2.crt.pem\")\napp.config['SQLALCHEMY_DATABASE_URI'] = (\n    f\"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}\"\n    f\"?ssl_ca={ssl_ca_path}&ssl_disabled=False\"\n)\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\n##################\n# app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv(\"DATABASE_URL\", \"mysql+pymysql://root@localhost:3306/collegedata\")\n# app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False",
+        "peekOfCode": "ssl_ca_path = os.path.join(os.path.dirname(__file__), \"DigiCertGlobalRootG2.crt.pem\")\napp.config['SQLALCHEMY_DATABASE_URI'] = (\n    f\"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}\"\n    f\"?ssl_ca={ssl_ca_path}\"\n)\napp.config['SQLALCHEMY_ENGINE_OPTIONS'] = {\n    \"connect_args\": {\n        \"ssl\": {\"ca\": ssl_ca_path}\n    }\n}",
         "detail": "backend.app",
         "documentation": {}
     },
@@ -778,7 +778,16 @@
         "kind": 5,
         "importPath": "backend.app",
         "description": "backend.app",
-        "peekOfCode": "app.config['SQLALCHEMY_DATABASE_URI'] = (\n    f\"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}\"\n    f\"?ssl_ca={ssl_ca_path}&ssl_disabled=False\"\n)\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\n##################\n# app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv(\"DATABASE_URL\", \"mysql+pymysql://root@localhost:3306/collegedata\")\n# app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\napp.config['CACHE_TYPE'] = 'SimpleCache'  # In-memory cache for development",
+        "peekOfCode": "app.config['SQLALCHEMY_DATABASE_URI'] = (\n    f\"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}\"\n    f\"?ssl_ca={ssl_ca_path}\"\n)\napp.config['SQLALCHEMY_ENGINE_OPTIONS'] = {\n    \"connect_args\": {\n        \"ssl\": {\"ca\": ssl_ca_path}\n    }\n}\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False",
+        "detail": "backend.app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config['SQLALCHEMY_ENGINE_OPTIONS']",
+        "kind": 5,
+        "importPath": "backend.app",
+        "description": "backend.app",
+        "peekOfCode": "app.config['SQLALCHEMY_ENGINE_OPTIONS'] = {\n    \"connect_args\": {\n        \"ssl\": {\"ca\": ssl_ca_path}\n    }\n}\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\n##################\n# app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv(\"DATABASE_URL\", \"mysql+pymysql://root@localhost:3306/collegedata\")\n# app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False",
         "detail": "backend.app",
         "documentation": {}
     },

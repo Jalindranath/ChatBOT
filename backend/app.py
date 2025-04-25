@@ -484,17 +484,42 @@ app.secret_key = os.getenv("FLASK_SECRET_KEY", "default_secret_key")
 #########################
 
 
-# Configure SQLAlchemy for Azure MySQL
+# # Configure SQLAlchemy for Azure MySQL
+# db_user = os.getenv("MYSQL_USER", "Nath")
+# db_password = quote_plus(os.getenv("MYSQL_PASSWORD", "Moonlight@123"))  # Encodes special characters
+# db_host = os.getenv("MYSQL_HOST", "chatbot-mysql-server.mysql.database.azure.com")
+# db_name = os.getenv("MYSQL_DATABASE", "collegedata")
+# ssl_ca_path = os.path.join(os.path.dirname(__file__), "DigiCertGlobalRootG2.crt.pem")
+
+# app.config['SQLALCHEMY_DATABASE_URI'] = (
+#     f"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}"
+#     f"?ssl_ca={ssl_ca_path}&ssl_disabled=False"
+# )
+# app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+
+# db = SQLAlchemy(app)
+
+
+
+
 db_user = os.getenv("MYSQL_USER", "Nath")
-db_password = quote_plus(os.getenv("MYSQL_PASSWORD", "Moonlight@123"))  # Encodes special characters
+db_password = quote_plus(os.getenv("MYSQL_PASSWORD", "Moonlight@123"))
 db_host = os.getenv("MYSQL_HOST", "chatbot-mysql-server.mysql.database.azure.com")
 db_name = os.getenv("MYSQL_DATABASE", "collegedata")
+
 ssl_ca_path = os.path.join(os.path.dirname(__file__), "DigiCertGlobalRootG2.crt.pem")
 
 app.config['SQLALCHEMY_DATABASE_URI'] = (
     f"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}"
-    f"?ssl_ca={ssl_ca_path}&ssl_disabled=False"
+    f"?ssl_ca={ssl_ca_path}"
 )
+
+app.config['SQLALCHEMY_ENGINE_OPTIONS'] = {
+    "connect_args": {
+        "ssl": {"ca": ssl_ca_path}
+    }
+}
+
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
