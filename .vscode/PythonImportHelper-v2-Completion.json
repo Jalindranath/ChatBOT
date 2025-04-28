@@ -733,7 +733,7 @@
         "kind": 5,
         "importPath": "backend.app",
         "description": "backend.app",
-        "peekOfCode": "db_user = os.getenv(\"MYSQL_USER\", \"Nath\")\ndb_password = quote_plus(os.getenv(\"MYSQL_PASSWORD\", \"Moonlight@123\"))\ndb_host = os.getenv(\"MYSQL_HOST\", \"chatbot-mysql-server.mysql.database.azure.com\")\ndb_name = os.getenv(\"MYSQL_DATABASE\", \"collegedata\")\nssl_ca_path = os.path.join(os.path.dirname(__file__), \"DigiCertGlobalRootG2.crt.pem\")\napp.config['SQLALCHEMY_DATABASE_URI'] = (\n    f\"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}\"\n    f\"?ssl_ca={ssl_ca_path}\"\n)\napp.config['SQLALCHEMY_ENGINE_OPTIONS'] = {",
+        "peekOfCode": "db_user = os.getenv(\"MYSQL_USER\", \"Nath\")\ndb_password = quote_plus(os.getenv(\"MYSQL_PASSWORD\", \"Moonlight@123\"))\ndb_host = os.getenv(\"MYSQL_HOST\", \"chatbot-mysql-server.mysql.database.azure.com\")\ndb_name = os.getenv(\"MYSQL_DATABASE\", \"collegedata\")\nssl_ca_path = os.path.join(os.path.dirname(__file__), \"BaltimoreCyberTrustRoot.crt.pem\")\napp.config['SQLALCHEMY_DATABASE_URI'] = (\n    f\"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}\"\n    f\"?ssl_ca={ssl_ca_path}\"\n)\napp.config['SQLALCHEMY_ENGINE_OPTIONS'] = {",
         "detail": "backend.app",
         "documentation": {}
     },
@@ -742,7 +742,7 @@
         "kind": 5,
         "importPath": "backend.app",
         "description": "backend.app",
-        "peekOfCode": "db_password = quote_plus(os.getenv(\"MYSQL_PASSWORD\", \"Moonlight@123\"))\ndb_host = os.getenv(\"MYSQL_HOST\", \"chatbot-mysql-server.mysql.database.azure.com\")\ndb_name = os.getenv(\"MYSQL_DATABASE\", \"collegedata\")\nssl_ca_path = os.path.join(os.path.dirname(__file__), \"DigiCertGlobalRootG2.crt.pem\")\napp.config['SQLALCHEMY_DATABASE_URI'] = (\n    f\"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}\"\n    f\"?ssl_ca={ssl_ca_path}\"\n)\napp.config['SQLALCHEMY_ENGINE_OPTIONS'] = {\n    \"connect_args\": {",
+        "peekOfCode": "db_password = quote_plus(os.getenv(\"MYSQL_PASSWORD\", \"Moonlight@123\"))\ndb_host = os.getenv(\"MYSQL_HOST\", \"chatbot-mysql-server.mysql.database.azure.com\")\ndb_name = os.getenv(\"MYSQL_DATABASE\", \"collegedata\")\nssl_ca_path = os.path.join(os.path.dirname(__file__), \"BaltimoreCyberTrustRoot.crt.pem\")\napp.config['SQLALCHEMY_DATABASE_URI'] = (\n    f\"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}\"\n    f\"?ssl_ca={ssl_ca_path}\"\n)\napp.config['SQLALCHEMY_ENGINE_OPTIONS'] = {\n    \"connect_args\": {",
         "detail": "backend.app",
         "documentation": {}
     },
@@ -751,7 +751,7 @@
         "kind": 5,
         "importPath": "backend.app",
         "description": "backend.app",
-        "peekOfCode": "db_host = os.getenv(\"MYSQL_HOST\", \"chatbot-mysql-server.mysql.database.azure.com\")\ndb_name = os.getenv(\"MYSQL_DATABASE\", \"collegedata\")\nssl_ca_path = os.path.join(os.path.dirname(__file__), \"DigiCertGlobalRootG2.crt.pem\")\napp.config['SQLALCHEMY_DATABASE_URI'] = (\n    f\"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}\"\n    f\"?ssl_ca={ssl_ca_path}\"\n)\napp.config['SQLALCHEMY_ENGINE_OPTIONS'] = {\n    \"connect_args\": {\n        \"ssl\": {\"ca\": ssl_ca_path}",
+        "peekOfCode": "db_host = os.getenv(\"MYSQL_HOST\", \"chatbot-mysql-server.mysql.database.azure.com\")\ndb_name = os.getenv(\"MYSQL_DATABASE\", \"collegedata\")\nssl_ca_path = os.path.join(os.path.dirname(__file__), \"BaltimoreCyberTrustRoot.crt.pem\")\napp.config['SQLALCHEMY_DATABASE_URI'] = (\n    f\"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}\"\n    f\"?ssl_ca={ssl_ca_path}\"\n)\napp.config['SQLALCHEMY_ENGINE_OPTIONS'] = {\n    \"connect_args\": {\n        \"ssl\": {\"ca\": ssl_ca_path}",
         "detail": "backend.app",
         "documentation": {}
     },
@@ -760,7 +760,7 @@
         "kind": 5,
         "importPath": "backend.app",
         "description": "backend.app",
-        "peekOfCode": "db_name = os.getenv(\"MYSQL_DATABASE\", \"collegedata\")\nssl_ca_path = os.path.join(os.path.dirname(__file__), \"DigiCertGlobalRootG2.crt.pem\")\napp.config['SQLALCHEMY_DATABASE_URI'] = (\n    f\"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}\"\n    f\"?ssl_ca={ssl_ca_path}\"\n)\napp.config['SQLALCHEMY_ENGINE_OPTIONS'] = {\n    \"connect_args\": {\n        \"ssl\": {\"ca\": ssl_ca_path}\n    }",
+        "peekOfCode": "db_name = os.getenv(\"MYSQL_DATABASE\", \"collegedata\")\nssl_ca_path = os.path.join(os.path.dirname(__file__), \"BaltimoreCyberTrustRoot.crt.pem\")\napp.config['SQLALCHEMY_DATABASE_URI'] = (\n    f\"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}\"\n    f\"?ssl_ca={ssl_ca_path}\"\n)\napp.config['SQLALCHEMY_ENGINE_OPTIONS'] = {\n    \"connect_args\": {\n        \"ssl\": {\"ca\": ssl_ca_path}\n    }",
         "detail": "backend.app",
         "documentation": {}
     },
@@ -769,7 +769,7 @@
         "kind": 5,
         "importPath": "backend.app",
         "description": "backend.app",
-        "peekOfCode": "ssl_ca_path = os.path.join(os.path.dirname(__file__), \"DigiCertGlobalRootG2.crt.pem\")\napp.config['SQLALCHEMY_DATABASE_URI'] = (\n    f\"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}\"\n    f\"?ssl_ca={ssl_ca_path}\"\n)\napp.config['SQLALCHEMY_ENGINE_OPTIONS'] = {\n    \"connect_args\": {\n        \"ssl\": {\"ca\": ssl_ca_path}\n    }\n}",
+        "peekOfCode": "ssl_ca_path = os.path.join(os.path.dirname(__file__), \"BaltimoreCyberTrustRoot.crt.pem\")\napp.config['SQLALCHEMY_DATABASE_URI'] = (\n    f\"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}\"\n    f\"?ssl_ca={ssl_ca_path}\"\n)\napp.config['SQLALCHEMY_ENGINE_OPTIONS'] = {\n    \"connect_args\": {\n        \"ssl\": {\"ca\": ssl_ca_path}\n    }\n}",
         "detail": "backend.app",
         "documentation": {}
     },

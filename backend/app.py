@@ -507,7 +507,7 @@ db_password = quote_plus(os.getenv("MYSQL_PASSWORD", "Moonlight@123"))
 db_host = os.getenv("MYSQL_HOST", "chatbot-mysql-server.mysql.database.azure.com")
 db_name = os.getenv("MYSQL_DATABASE", "collegedata")
 
-ssl_ca_path = os.path.join(os.path.dirname(__file__), "DigiCertGlobalRootG2.crt.pem")
+ssl_ca_path = os.path.join(os.path.dirname(__file__), "BaltimoreCyberTrustRoot.crt.pem")
 
 app.config['SQLALCHEMY_DATABASE_URI'] = (
     f"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}"
