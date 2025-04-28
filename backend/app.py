@@ -508,6 +508,8 @@ db_host = os.getenv("MYSQL_HOST", "chatbot-mysql-server.mysql.database.azure.com
 db_name = os.getenv("MYSQL_DATABASE", "collegedata")
 
 ssl_ca_path = os.path.join(os.path.dirname(__file__), "BaltimoreCyberTrustRoot.crt.pem")
+print(f"SSL CA Path being used: {ssl_ca_path}")
+print(f"File exists: {os.path.isfile(ssl_ca_path)}")
 
 app.config['SQLALCHEMY_DATABASE_URI'] = (
     f"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}"
